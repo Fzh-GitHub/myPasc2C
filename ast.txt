@@ -1,0 +1,172 @@
+[NSymbol]<id: 171   value: program_struct   type: program_struct>
+	|--- [NSymbol]<id: 9   value: program_head   type: program_head>
+		|--- [1,1]<id: 0   value: program   type: program    stringvalue: program>
+		|--- [1,9]<id: 1   value: example   type: id    stringvalue: example>
+		|--- [1,16]<id: 2   value: (   type: (    stringvalue: (>
+		|--- [NSymbol]<id: 7   value: idlist   type: idlist>
+			|--- [NSymbol]<id: 4   value: idlist   type: idlist>
+				|--- [1,17]<id: 3   value: input   type: id    stringvalue: input>
+			|--- [1,22]<id: 5   value: ,   type: ,    stringvalue: ,>
+			|--- [1,23]<id: 6   value: output   type: id    stringvalue: output>
+		|--- [1,29]<id: 8   value: )   type: )    stringvalue: )>
+	|--- [1,30]<id: 10   value: ;   type: ;    stringvalue: ;>
+	|--- [NSymbol]<id: 169   value: program_body   type: program_body>
+		|--- [NSymbol]<id: 11   value: const_declarations   type: const_declarations>
+		|--- [NSymbol]<id: 24   value: var_declarations   type: var_declarations>
+			|--- [2,5]<id: 12   value: var   type: var    stringvalue: var>
+			|--- [NSymbol]<id: 22   value: var_declaration   type: var_declaration>
+				|--- [NSymbol]<id: 17   value: idlist   type: idlist>
+					|--- [NSymbol]<id: 14   value: idlist   type: idlist>
+						|--- [2,9]<id: 13   value: x   type: id    stringvalue: x>
+					|--- [2,10]<id: 15   value: ,   type: ,    stringvalue: ,>
+					|--- [2,11]<id: 16   value: y   type: id    stringvalue: y>
+				|--- [2,12]<id: 18   value: :   type: :    stringvalue: :>
+				|--- [NSymbol]<id: 21   value: type   type: type>
+					|--- [NSymbol]<id: 20   value: basic_type   type: basic_type>
+						|--- [2,13]<id: 19   value: integer   type: integer    stringvalue: integer>
+			|--- [2,20]<id: 23   value: ;   type: ;    stringvalue: ;>
+		|--- [NSymbol]<id: 120   value: subprogram_declarations   type: subprogram_declarations>
+			|--- [NSymbol]<id: 25   value: subprogram_declarations   type: subprogram_declarations>
+			|--- [NSymbol]<id: 118   value: subprogram   type: subprogram>
+				|--- [NSymbol]<id: 45   value: subprogram_head   type: subprogram_head>
+					|--- [3,5]<id: 26   value: function   type: function    stringvalue: function>
+					|--- [3,14]<id: 27   value: gcd   type: id    stringvalue: gcd>
+					|--- [NSymbol]<id: 41   value: formal_parameter   type: formal_parameter>
+						|--- [3,17]<id: 28   value: (   type: (    stringvalue: (>
+						|--- [NSymbol]<id: 39   value: parameter_list   type: parameter_list>
+							|--- [NSymbol]<id: 38   value: parameter   type: parameter>
+								|--- [NSymbol]<id: 37   value: value_parameter   type: value_parameter>
+									|--- [NSymbol]<id: 33   value: idlist   type: idlist>
+										|--- [NSymbol]<id: 30   value: idlist   type: idlist>
+											|--- [3,18]<id: 29   value: a   type: id    stringvalue: a>
+										|--- [3,19]<id: 31   value: ,   type: ,    stringvalue: ,>
+										|--- [3,20]<id: 32   value: b   type: id    stringvalue: b>
+									|--- [3,21]<id: 34   value: :   type: :    stringvalue: :>
+									|--- [NSymbol]<id: 36   value: basic_type   type: basic_type>
+										|--- [3,22]<id: 35   value: integer   type: integer    stringvalue: integer>
+						|--- [3,29]<id: 40   value: )   type: )    stringvalue: )>
+					|--- [3,30]<id: 42   value: :   type: :    stringvalue: :>
+					|--- [NSymbol]<id: 44   value: basic_type   type: basic_type>
+						|--- [3,31]<id: 43   value: integer   type: integer    stringvalue: integer>
+				|--- [3,38]<id: 46   value: ;   type: ;    stringvalue: ;>
+				|--- [NSymbol]<id: 117   value: subprogram_body   type: subprogram_body>
+					|--- [NSymbol]<id: 47   value: const_declarations   type: const_declarations>
+					|--- [NSymbol]<id: 48   value: var_declarations   type: var_declarations>
+					|--- [NSymbol]<id: 116   value: compound_statement   type: compound_statement>
+						|--- [4,9]<id: 49   value: begin   type: begin    stringvalue: begin>
+						|--- [NSymbol]<id: 114   value: statement_list   type: statement_list>
+							|--- [NSymbol]<id: 113   value: statement   type: statement>
+								|--- [5,13]<id: 50   value: if   type: if    stringvalue: if>
+								|--- [NSymbol]<id: 62   value: expression   type: expression>
+									|--- [NSymbol]<id: 56   value: simple_expression   type: simple_expression>
+										|--- [NSymbol]<id: 55   value: term   type: term>
+											|--- [NSymbol]<id: 54   value: factor   type: factor>
+												|--- [NSymbol]<id: 53   value: variable   type: variable>
+													|--- [5,16]<id: 51   value: b   type: id    stringvalue: b>
+													|--- [NSymbol]<id: 52   value: id_varpart   type: id_varpart>
+									|--- [5,17]<id: 57   value: =   type: relop    stringvalue: =>
+									|--- [NSymbol]<id: 61   value: simple_expression   type: simple_expression>
+										|--- [NSymbol]<id: 60   value: term   type: term>
+											|--- [NSymbol]<id: 59   value: factor   type: factor>
+												|--- [5,18]<id: 58   value: 0   type: num    stringvalue: 0>
+								|--- [5,20]<id: 63   value: then   type: then    stringvalue: then>
+								|--- [NSymbol]<id: 75   value: statement   type: statement>
+									|--- [NSymbol]<id: 66   value: variable   type: variable>
+										|--- [5,25]<id: 64   value: gcd   type: id    stringvalue: gcd>
+										|--- [NSymbol]<id: 65   value: id_varpart   type: id_varpart>
+									|--- [5,28]<id: 67   value: :=   type: assignop    stringvalue: :=>
+									|--- [NSymbol]<id: 74   value: expression   type: expression>
+										|--- [NSymbol]<id: 73   value: simple_expression   type: simple_expression>
+											|--- [NSymbol]<id: 72   value: term   type: term>
+												|--- [NSymbol]<id: 71   value: factor   type: factor>
+													|--- [NSymbol]<id: 70   value: variable   type: variable>
+														|--- [5,30]<id: 68   value: a   type: id    stringvalue: a>
+														|--- [NSymbol]<id: 69   value: id_varpart   type: id_varpart>
+								|--- [NSymbol]<id: 112   value: else_part   type: else_part>
+									|--- [6,13]<id: 76   value: else   type: else    stringvalue: else>
+									|--- [NSymbol]<id: 111   value: statement   type: statement>
+										|--- [NSymbol]<id: 79   value: variable   type: variable>
+											|--- [6,18]<id: 77   value: gcd   type: id    stringvalue: gcd>
+											|--- [NSymbol]<id: 78   value: id_varpart   type: id_varpart>
+										|--- [6,21]<id: 80   value: :=   type: assignop    stringvalue: :=>
+										|--- [NSymbol]<id: 110   value: expression   type: expression>
+											|--- [NSymbol]<id: 109   value: simple_expression   type: simple_expression>
+												|--- [NSymbol]<id: 108   value: term   type: term>
+													|--- [NSymbol]<id: 107   value: factor   type: factor>
+														|--- [6,23]<id: 81   value: gcd   type: id    stringvalue: gcd>
+														|--- [6,26]<id: 82   value: (   type: (    stringvalue: (>
+														|--- [NSymbol]<id: 105   value: expression_list   type: expression_list>
+															|--- [NSymbol]<id: 90   value: expression_list   type: expression_list>
+																|--- [NSymbol]<id: 89   value: expression   type: expression>
+																	|--- [NSymbol]<id: 88   value: simple_expression   type: simple_expression>
+																		|--- [NSymbol]<id: 87   value: term   type: term>
+																			|--- [NSymbol]<id: 86   value: factor   type: factor>
+																				|--- [NSymbol]<id: 85   value: variable   type: variable>
+																					|--- [6,27]<id: 83   value: b   type: id    stringvalue: b>
+																					|--- [NSymbol]<id: 84   value: id_varpart   type: id_varpart>
+															|--- [6,28]<id: 91   value: ,   type: ,    stringvalue: ,>
+															|--- [NSymbol]<id: 104   value: expression   type: expression>
+																|--- [NSymbol]<id: 103   value: simple_expression   type: simple_expression>
+																	|--- [NSymbol]<id: 102   value: term   type: term>
+																		|--- [NSymbol]<id: 96   value: term   type: term>
+																			|--- [NSymbol]<id: 95   value: factor   type: factor>
+																				|--- [NSymbol]<id: 94   value: variable   type: variable>
+																					|--- [6,30]<id: 92   value: a   type: id    stringvalue: a>
+																					|--- [NSymbol]<id: 93   value: id_varpart   type: id_varpart>
+																		|--- [6,32]<id: 97   value: mod   type: mulop    stringvalue: mod>
+																		|--- [NSymbol]<id: 101   value: factor   type: factor>
+																			|--- [NSymbol]<id: 100   value: variable   type: variable>
+																				|--- [6,36]<id: 98   value: b   type: id    stringvalue: b>
+																				|--- [NSymbol]<id: 99   value: id_varpart   type: id_varpart>
+														|--- [6,37]<id: 106   value: )   type: )    stringvalue: )>
+						|--- [7,9]<id: 115   value: end   type: end    stringvalue: end>
+			|--- [7,12]<id: 119   value: ;   type: ;    stringvalue: ;>
+		|--- [NSymbol]<id: 168   value: compound_statement   type: compound_statement>
+			|--- [8,5]<id: 121   value: begin   type: begin    stringvalue: begin>
+			|--- [NSymbol]<id: 166   value: statement_list   type: statement_list>
+				|--- [NSymbol]<id: 135   value: statement_list   type: statement_list>
+					|--- [NSymbol]<id: 134   value: statement   type: statement>
+						|--- [9,9]<id: 122   value: read   type: read    stringvalue: read>
+						|--- [9,13]<id: 123   value: (   type: (    stringvalue: (>
+						|--- [NSymbol]<id: 132   value: variable_list   type: variable_list>
+							|--- [NSymbol]<id: 127   value: variable_list   type: variable_list>
+								|--- [NSymbol]<id: 126   value: variable   type: variable>
+									|--- [9,14]<id: 124   value: x   type: id    stringvalue: x>
+									|--- [NSymbol]<id: 125   value: id_varpart   type: id_varpart>
+							|--- [9,15]<id: 128   value: ,   type: ,    stringvalue: ,>
+							|--- [NSymbol]<id: 131   value: variable   type: variable>
+								|--- [9,17]<id: 129   value: y   type: id    stringvalue: y>
+								|--- [NSymbol]<id: 130   value: id_varpart   type: id_varpart>
+						|--- [9,18]<id: 133   value: )   type: )    stringvalue: )>
+				|--- [9,19]<id: 136   value: ;   type: ;    stringvalue: ;>
+				|--- [NSymbol]<id: 165   value: statement   type: statement>
+					|--- [10,9]<id: 137   value: write   type: write    stringvalue: write>
+					|--- [10,14]<id: 138   value: (   type: (    stringvalue: (>
+					|--- [NSymbol]<id: 163   value: expression_list   type: expression_list>
+						|--- [NSymbol]<id: 162   value: expression   type: expression>
+							|--- [NSymbol]<id: 161   value: simple_expression   type: simple_expression>
+								|--- [NSymbol]<id: 160   value: term   type: term>
+									|--- [NSymbol]<id: 159   value: factor   type: factor>
+										|--- [10,15]<id: 139   value: gcd   type: id    stringvalue: gcd>
+										|--- [10,18]<id: 140   value: (   type: (    stringvalue: (>
+										|--- [NSymbol]<id: 157   value: expression_list   type: expression_list>
+											|--- [NSymbol]<id: 148   value: expression_list   type: expression_list>
+												|--- [NSymbol]<id: 147   value: expression   type: expression>
+													|--- [NSymbol]<id: 146   value: simple_expression   type: simple_expression>
+														|--- [NSymbol]<id: 145   value: term   type: term>
+															|--- [NSymbol]<id: 144   value: factor   type: factor>
+																|--- [NSymbol]<id: 143   value: variable   type: variable>
+																	|--- [10,19]<id: 141   value: x   type: id    stringvalue: x>
+																	|--- [NSymbol]<id: 142   value: id_varpart   type: id_varpart>
+											|--- [10,20]<id: 149   value: ,   type: ,    stringvalue: ,>
+											|--- [NSymbol]<id: 156   value: expression   type: expression>
+												|--- [NSymbol]<id: 155   value: simple_expression   type: simple_expression>
+													|--- [NSymbol]<id: 154   value: term   type: term>
+														|--- [NSymbol]<id: 153   value: factor   type: factor>
+															|--- [NSymbol]<id: 152   value: variable   type: variable>
+																|--- [10,22]<id: 150   value: y   type: id    stringvalue: y>
+																|--- [NSymbol]<id: 151   value: id_varpart   type: id_varpart>
+										|--- [10,23]<id: 158   value: )   type: )    stringvalue: )>
+					|--- [10,24]<id: 164   value: )   type: )    stringvalue: )>
+			|--- [11,5]<id: 167   value: end   type: end    stringvalue: end>
+	|--- [11,8]<id: 170   value: .   type: .    stringvalue: .>

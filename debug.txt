@@ -1,0 +1,48 @@
+Total Line  12
+Total character:  252
+
+Warn Num:  5
+[Warn1]: in line 2,col 13.(Type0)
+ WarnMessage:   No blank around key-word:  integer
+
+[Warn2]: in line 3,col 22.(Type0)
+ WarnMessage:   No blank around key-word:  integer
+
+[Warn3]: in line 3,col 31.(Type0)
+ WarnMessage:   No blank around key-word:  integer
+
+[Warn4]: in line 9,col 9.(Type0)
+ WarnMessage:   No blank around key-word:  read
+
+[Warn5]: in line 10,col 9.(Type0)
+ WarnMessage:   No blank around key-word:  write
+
+[2022/5/7	15:34:59]	Loading Grammar...
+[2022/5/7	15:34:59]	Grammar name:Pascal-S
+[2022/5/7	15:34:59]	Non-Terminal-Symbols have been loaded.
+[2022/5/7	15:34:59]	Terminal-Symbols have been loaded.
+[2022/5/7	15:34:59]	Productions have been loaded.
+[2022/5/7	15:34:59]	First set has been found.
+[2022/5/7	15:35:6]	LR1-Parse-Table has been worked out.
+[2022/5/7	15:35:27]	Tokens have been read.
+[2022/5/7	15:35:27]	Syntax right.
+[2022/5/7	15:35:27]	Begin to semantic analysis...
+[2022/5/7	15:35:27]	Located to table main
+[2022/5/7	15:35:27]	Located to table gcd
+[2022/5/7	15:35:27]	Relocated table from gcd to main
+
+gcd:
+Name           Etype          Vtype          Declaration    Period         
+a              value          integer        3              
+b              value          integer        3              
+gcd            function       integer        3              
+
+main:
+Name           Etype          Vtype          Declaration    Period         
+gcd            function       integer        3              
+input          value          id             1              
+output         value          id             1              
+x              variable       integer        2              
+y              variable       integer        2              
+[2022/5/7	15:35:27]	Finish semantic analysis.
+[2022/5/7	15:35:27]	Semantic right.
